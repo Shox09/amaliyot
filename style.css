@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(237, 227, 227);
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+header {
+  background-color: white;
+  border-bottom: 5px solid rgb(241, 217, 217);
+}
+
+.flex-container {
+  width: 100%;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-parents {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-parents span {
+  font-size: 36px;
+}
+
+form{
+  width: 650px;
+  background-color: white;
+  border-radius: 30px;
+
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 30px;
+  border: 1px solid gray;
+}
+
+.flex-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parents-icon span {
+  color: #f0400f;
+  font-size: 24px;
+}
+
+h2 {
+  color: #0e0d5d;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Inter" sans-serif;
+}
+
+.p-parents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  padding: 15px;
+}
+
+.p1 {
+  width: 50%;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  background-color:  #F5F5F5;
+  font-size: 20px;
+  color: gray;
+}
+
+.p2 {
+  width: 50%;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Inter" sans-serif;
+  border-radius: 15px;
+  background-color:   #F5F5F5;
+  font-size: 20px;
+  color: gray;
+}
+
+.p1:hover{
+    background-color: rgb(220, 216, 216);
+    font-size: 25px;
+    color: black;
+}
+
+
+.p2:hover{
+    background-color: rgb(220, 216, 216);
+    font-size: 25px;
+    color: black;
+}
+
+
+
+.flex-container2{
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+input{
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: "Inter" sans-serif;
+  border: none;
+  color: gray;
+  font-size: 20px;
+  border: 2px solid gray;
+}
+
+h3{
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(112, 108, 108);
+}
+
+button{
+  width: 40%;
+  padding: 25px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: #F69E86;
+  color: #FFFFFF;
+    border: none;
+}
+
+button:hover{
+  background-color:black;
+  font-size: 30px;
+}
+
+.b{
+  display: flex;
+  justify-content: end;
+
+}
